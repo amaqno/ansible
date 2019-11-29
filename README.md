@@ -54,6 +54,18 @@ enable_plugins = host_list, virtualbox, yaml, constructed, azure_rm
 ```
 ### Setup Service Principal
 Create ~/.azure/credentials with Service Principal user details 
+```
+[default]
+subscription_id=<your-subscription_id>
+client_id=<security-principal-appid>
+secret=<security-principal-password>
+tenant=<security-principal-tenant>
+```
+### Microsoft Azure References
 MS https://docs.microsoft.com/en-us/cli/azure/create-an-azure-service-principal-azure-cli?view=azure-cli-latest
+
+https://docs.microsoft.com/en-us/azure/ansible/
+
+https://www.azuredevopslabs.com/labs/vstsextend/ansible/
 
 

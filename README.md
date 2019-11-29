@@ -47,6 +47,7 @@ pip install msrestazure
 ```
 ### Update configurations
 Update the plugins in  /etc/ansible/ansible.cfg
+
 ```
 [inventory]
 enable_plugins = host_list, virtualbox, yaml, constructed, azure_rm

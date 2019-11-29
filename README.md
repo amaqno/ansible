@@ -47,10 +47,10 @@ pip install msrestazure
 ```
 ### Update configurations
 Update the plugins in  /etc/ansible/ansible.cfg
-
+```
 [inventory]
 enable_plugins = host_list, virtualbox, yaml, constructed, azure_rm
-
+```
 ### Setup Service Principal
 Create ~/.azure/credentials with Service Principal user details 
 MS https://docs.microsoft.com/en-us/cli/azure/create-an-azure-service-principal-azure-cli?view=azure-cli-latest

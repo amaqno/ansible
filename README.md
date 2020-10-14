@@ -42,7 +42,6 @@ $ sudo apt-get install azure-cli
 
 pip3 install ansible[azure]
 
-pip3 install ansible[msrestazure]
 
 ```
 ### Update configurations

@@ -36,13 +36,13 @@ $ sudo apt-get update
 
 $ sudo apt-get install ansible
 
-$ sudo apt-get install -y python-pip
+$ sudo apt-get install -y python3-pip
 
 $ sudo apt-get install azure-cli
 
-pip install azure
+pip3 install ansible[azure]
 
-pip install msrestazure
+pip3 install ansible[msrestazure]
 
 ```
 ### Update configurations
